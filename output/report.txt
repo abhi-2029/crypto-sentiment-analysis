@@ -1,0 +1,60 @@
+=== Crypto Sentiment Analysis Report ===
+
+Merged Data Sample:
+         Date  closedPnL Classification
+0  2024-10-27        0.0          Greed
+1  2024-10-27        0.0          Greed
+2  2024-10-27        0.0          Greed
+3  2024-10-27        0.0          Greed
+4  2024-10-27        0.0          Greed
+
+Missing Sentiment Values:
+0
+
+Profit by Sentiment:
+Classification
+Extreme Greed    25.418772
+Fear             50.047622
+Greed            87.894859
+Neutral          22.229713
+Name: closedPnL, dtype: float64
+
+Win Rate:
+Classification
+Extreme Greed    0.490089
+Fear             0.415146
+Greed            0.446471
+Neutral          0.317182
+Name: win, dtype: float64
+
+Trade Count:
+Classification
+Fear             133871
+Greed             36289
+Neutral            7141
+Extreme Greed      6962
+Name: count, dtype: int64
+
+Leverage:
+Leverage data not available in dataset
+
+Side Analysis:
+Classification  side
+Extreme Greed   BUY      25.578564
+                SELL     25.268770
+Fear            BUY      58.074630
+                SELL     42.222976
+Greed           BUY      12.489506
+                SELL    143.617782
+Neutral         BUY      15.646108
+                SELL     28.576120
+Name: closedPnL, dtype: float64
+
+Volatility:
+Classification
+Extreme Greed     306.166937
+Fear              909.121796
+Greed            1148.343968
+Neutral           633.704815
+Name: closedPnL, dtype: float64
+
