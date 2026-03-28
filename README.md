@@ -73,5 +73,5 @@ crypto_sentiment_analysis/
 pip install -r requirements.txt
 python main.py
 ```
-📬 Author
+📬 Author : 
 Abhishek Ranjan
